@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.IO;
 
 namespace WebServer
 {
@@ -39,7 +40,8 @@ namespace WebServer
             // Obtain a response object.
             HttpListenerResponse response = context.Response;
             // Construct a response.
-            string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+            //StreamReader reader = new StreamReader(@"C:\Users\Ilija\Documents\GitHub\webserver-teammichael\Content\index.html");
+            string responseString = File.ReadAllText(@"C:\Users\Ilija\Documents\GitHub\webserver-teammichael\Content\index.html");
             byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
             // Get a response stream and write the response to it.
             response.ContentLength64 = buffer.Length;
@@ -48,7 +50,7 @@ namespace WebServer
             // You must close the output stream.
             output.Close();
             listener.Stop();
-
+            //test
         }
     }
 }
