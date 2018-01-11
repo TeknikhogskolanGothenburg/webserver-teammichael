@@ -47,11 +47,6 @@ namespace WebServer
 
             {
 
-
-
-
-
-
                 listener.Start();
                 Console.WriteLine("Listening...");
 
