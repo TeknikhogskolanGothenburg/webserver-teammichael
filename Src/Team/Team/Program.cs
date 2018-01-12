@@ -41,7 +41,7 @@ namespace WebServer
             foreach (string s in prifixes)
             {
                 listener.Prefixes.Add(s);
-                Console.WriteLine("Listening..." + s );
+             //   Console.WriteLine("Listening...");
 
             }
 
@@ -96,7 +96,7 @@ namespace WebServer
 
             string[] url = new string[fileEntries.Length];
 
-            //foreach (string x in url )
+            //foreach (string x in url)
 
             //{
 
@@ -110,11 +110,24 @@ namespace WebServer
 
             {
 
+                string st = "Cookies  "; 
+                int x = 0;
+                x++; 
+           
                 url[i] = "http://localhost:8080/" + fileEntries[i].Substring("Content".Length + 1).Replace('\\', '/') + "/";
-                
+
+                Console.WriteLine(  x + i); // cookies 
+                    Console.WriteLine(url[i] );
             }
 
-            server(url);
+
+            Console.WriteLine(  "--------------------------------------------------------  " );
+            Console.WriteLine(  "Antal sidor  " + fileEntries.Length  );
+            /* Cookies är en data som en webbserver 
+            kan be att få spara i webbplatsbesökarens dator. Men i det här fallet blir det 
+            våra cookies är hur mycket sidor vi har om jag har förstår den correct.  
+    */        
+    server(url);
 
         }
 
