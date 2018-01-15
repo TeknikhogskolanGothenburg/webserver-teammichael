@@ -32,7 +32,7 @@ namespace WebServer
             foreach (string s in prifixes)
             {
                 listener.Prefixes.Add(s);
-                //   Console.WriteLine("Listening...");
+                //Console.WriteLine("Listening..." );
 
             }
 
@@ -92,9 +92,11 @@ namespace WebServer
 
             for (int i = 0; i < fileEntries.Length; i++)
 
+
+
             {
 
-                string st = "Cookies  ";
+          
                 int x = 0;
                 x++;
 
