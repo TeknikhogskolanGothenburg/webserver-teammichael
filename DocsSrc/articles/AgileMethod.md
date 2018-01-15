@@ -14,14 +14,20 @@ a daily Scrum meeting is held to talk about things that have been done and whats
 work is summarized and ready for a release. With the completed work a "sprint review" is made so that the Develpoment Team can demonstrate
 new functionality and how the software works to the Collaborators/Partner and Product Owner. Then there is also a "Sprint Retrospective" that comes 
 along with the completion of the sprint, the Dev Team can talk about what went well, what didn't go so good and what could improve even more. 
-The end of the Sprint Retrospective is to make sure that the next sprint is more efficient and effective than the last so the software is able to 
-improve. 
-https://www.cprime.com/resources/what-is-agile-what-is-scrum/
-https://www.scrum.org/resources/what-is-a-sprint-in-scrum
+The end of the Sprint Retrospective is to make sure that the next sprint is more efficient and effective than the last one. 
 
+* XP Stands for Extreme Programming, "XP is a lightweight methodology for small to medium sized teams developing software in the face of vague or
+rapidly changing requirements". - Kent Beck, the software engineer and creator of XP. It can be explained short in a few number of parts
+1. It is "Lightweight" because it doesn't overburden the developers in the process so the process is kept to a minimum.
+2. It is also "Humanistic" in terms that the costumers and developers are in the center of the process. 
+3. "Pair Programming" where two people use one computer and sitting side by side, and can learn from one another, share ideas and so are better
+codes produced.
+4. "Code Review" that documents all the work and make sure its a clean code, this needs a review team that can come with suggestions and keep the
+process going.
+5. "Unit Testing" test the small parts of the code so the program have higher number of small focused functions.
+6. "Intergration Testing" is where the software is tested by the dev group in parts. When all parts have been tested there should be no room for
+mistakes.
 
-
-* XP
 * Devops
 * Kanban
 
