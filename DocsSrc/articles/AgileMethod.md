@@ -5,12 +5,20 @@ Describe an agile development method, max 1000 words, examples:
 * Scrum is somehow a framework that is divided in small parts for the process to get going, in that way it boost the amount
 of productive time available for getting useful work done. The process goes as following: There is a Product Owner that decides what to build,
 and there is a Development Team that builds it, and further on the Costumers use the software and experience it. Once the software is in the 
-Costumers hands it can be valuated and feedback will be sent from costumer and Collaborators/Partners to the Product Owner. A priotity list with features
-and news is made from all types of feedback and is called "Product Backlog". In a more defined picture of Scrum there is a "Scrum Master" that
-deals with all the rutines and help the Product Owner and Development Team to maintain good work. The Scrum Master works in a cycle of "sprints"
+Costumers hands it can be valuated and feedback will be sent from costumer and Collaborators/Partners to the Product Owner. A priotity list with 
+features and news is made from all types of feedback and is called "Product Backlog". In a more defined picture of Scrum there is a "Scrum Master" 
+that deals with all the rutines and help the Product Owner and Development Team to maintain good work. The Scrum Master works in a cycle of "sprints"
 wich usually have a 2 weeks duration and proceeds to make a "sprint plan" togeather with the Product Owner and Dev Team. The high priority items
 are selected from the "Backlog" that the Dev Team can make in one sprint, and that is called a "sprint backlog". During that sprint time, each day
-a daily Scrum meeting is held to talk about things that have been done and whats next to do and so on.
+a daily Scrum meeting is held to talk about things that have been done and whats next to do and so on. At the end of the sprint the completed
+work is summarized and ready for a release. With the completed work a "sprint review" is made so that the Develpoment Team can demonstrate
+new functionality and how the software works to the Collaborators/Partner and Product Owner. Then there is also a "Sprint Retrospective" that comes 
+along with the completion of the sprint, the Dev Team can talk about what went well, what didn't go so good and what could improve even more. 
+The end of the Sprint Retrospective is to make sure that the next sprint is more efficient and effective than the last so the software is able to 
+improve. 
+https://www.cprime.com/resources/what-is-agile-what-is-scrum/
+https://www.scrum.org/resources/what-is-a-sprint-in-scrum
+
 
 
 * XP
