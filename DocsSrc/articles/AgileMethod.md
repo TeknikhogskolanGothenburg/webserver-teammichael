@@ -29,7 +29,10 @@ process going.
 mistakes.
 ---------------------------------------------------------------------------------
 * Devops is a word for "Development" and "Operations" that is a practice that aims at unifying Software development (Dev) and software Operations
-(Ops). It uses costumer-centric teams that can hold diffrent priorities and still work together and get no errors.
+(Ops). It uses costumer-centric teams that can hold diffrent priorities and still work together and get no errors. DevOps is a concept with 
+different interpretations and definitions, but when you get down to it, it's all about developers and operations teams breaking down silos and 
+working together to innovate faster. For many companies, the ability to innovate at a rapid pace — responding to market conditions and customer 
+feedback — is a key factor for success. Adopting the DevOps philosophy requires a new mindset, new tools and new skills.
 ---------------------------------------------------------------------------------
 * Kanban can be explained, simple factory: just two machines. In ideal world, the machines operate at the same pace, and work flows smoothly from 
 "To do" to "Done". But what if Machine 1 is faster  A pile of widgets builds up in front of Machine 2. This "Work in Progress" pile is a problem. 
