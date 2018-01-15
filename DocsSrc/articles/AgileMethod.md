@@ -15,9 +15,9 @@ work is summarized and ready for a release. With the completed work a "sprint re
 new functionality and how the software works to the Collaborators/Partner and Product Owner. Then there is also a "Sprint Retrospective" that comes 
 along with the completion of the sprint, the Dev Team can talk about what went well, what didn't go so good and what could improve even more. 
 The end of the Sprint Retrospective is to make sure that the next sprint is more efficient and effective than the last one. 
-
+--------------------------------------------------------------------------------
 * XP Stands for Extreme Programming, "XP is a lightweight methodology for small to medium sized teams developing software in the face of vague or
-rapidly changing requirements". - Kent Beck, the software engineer and creator of XP. It can be explained short in a few number of parts
+rapidly changing requirements". - Kent Beck, the software engineer and creator of XP. It can be explained short in a few number of parts:
 1. It is "Lightweight" because it doesn't overburden the developers in the process so the process is kept to a minimum.
 2. It is also "Humanistic" in terms that the costumers and developers are in the center of the process. 
 3. "Pair Programming" where two people use one computer and sitting side by side, and can learn from one another, share ideas and so are better
@@ -27,10 +27,23 @@ process going.
 5. "Unit Testing" test the small parts of the code so the program have higher number of small focused functions.
 6. "Intergration Testing" is where the software is tested by the dev group in parts. When all parts have been tested there should be no room for
 mistakes.
-
-* Devops
-* Kanban
-
+---------------------------------------------------------------------------------
+* Devops is a word for "Development" and "Operations" that is a practice that aims at unifying Software development (Dev) and software Operations
+(Ops). It uses costumer-centric teams that can hold diffrent priorities and still work together and get no errors.
+---------------------------------------------------------------------------------
+* Kanban can be explained, simple factory: just two machines. In ideal world, the machines operate at the same pace, and work flows smoothly from 
+"To do" to "Done". But what if Machine 1 is faster  A pile of widgets builds up in front of Machine 2. This "Work in Progress" pile is a problem. 
+There are obvious costs: there's money tied up in each of these items. and the physical space that this "queue" takes up also has to be paid for. 
+And there are less obvious costs. Like a high tide over a rocky shore, a generous helping of work in progress can hide a multitude of sins, 
+including: machine downtime set-up time and quality issues Reduce the Work in Progress, and these hidden issues become issues that can be - need to
+be - addressed. Kanban Card ------- But how By having Machine 1 process items ONLY when  Machine 2 is ready to receive it. 
+Machine 2 needs to signal to Machine 1 that it's ready; the signal is in the form of the now-famous "Kanban card". No longer are widgets PUSHED 
+through the factory. The are now PULLED. The Kanban system was born in the factories of Toyota but has found favour in software development: 
+We don't have machines, but we do have processes. We don't process widgets, but  we do process tasks. And we can represent the processes and tasks 
+on a board. In this case, the PULL system is implemented without the need for a Kanban Card: an empty (or nearly empty) column is the SIGNAL to 
+the previous column to "send more tasks". With low Work in Progress come the advantages of: Shorter cycle times Faster throughout And less wasted 
+time
+---------------------------------------------------------------------------------
 See more at [https://en.wikipedia.org/wiki/Agile_software_development#Agile_software_development_methods](https://en.wikipedia.org/wiki/Agile_software_development#Agile_software_development_methods)
 
 Agile Softwear Development 
